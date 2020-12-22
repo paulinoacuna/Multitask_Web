@@ -2,14 +2,86 @@
 	padding: 0px;
 	margin: 0px;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	background-color: #cccccc;
 }
+
+/* ------------------NAVBAR-----------*/ 
+
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav {
+	
+	line-height:20px;
+}
+
+#logo {
+
+	display:inline-block;
+	color: #0e0e0e;
+	text-decoration:none;
+	padding: 10px 20px;
+	line-height:normal;
+	font-size:30px;
+	font-weight:bold;
+	
+
+}
+
+header nav a {
+
+	display:inline-block;
+	color: #00506b;
+	text-decoration:none;
+	padding: 10px 10px;
+	line-height:normal;
+	font-size:17px;
+	font-weight:bold;
+	
+
+}
+
+header nav a:hover {
+	background:#666;
+	color: #f0a161;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------CALCULADORA-----------*/ 
 
 .calculadora {
 	background-color: #ededed;
 	width: fit-content;
 	margin: auto;
 	margin-top: 35px;
-
+	border-style: solid;
+	border-color: #00506b;
+	
 }
 
 .teclas {
@@ -27,7 +99,7 @@
 
 }
 
-.op {
+.ops {
 	padding: 18px 18px 18px 9px;
 
 }
@@ -35,9 +107,6 @@
 #igual {
 	background-color: #00aae4;
 	color: #fff;
-
-
-
 }
 
 
@@ -49,7 +118,7 @@
 
 }
 
-.op button {
+.ops button {
 	display: block;
 	width: 54px;
 	height: 54px;
@@ -77,6 +146,7 @@
 
 .numeros button:hover {
 	box-shadow: 0px 0px 12px #aaa;
+	color: #e6802d;
 
 }
 
