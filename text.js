@@ -9,6 +9,13 @@ document.getElementById("n8").addEventListener("click",n8);
 document.getElementById("n9").addEventListener("click",n9);
 document.getElementById("n0").addEventListener("click",n0);
 
+document.getElementById("s").addEventListener("click",suma);
+document.getElementById("r").addEventListener("click",resta);
+document.getElementById("d").addEventListener("click",div);
+document.getElementById("m").addEventListener("click",mult);
+
+//numeric panel
+
 function n1(){
 	var actual = document.getElementById('resultado').innerHTML;
 	var sumado = document.getElementById('n1').innerHTML;
@@ -95,6 +102,31 @@ function n0(){
 	var sumado = document.getElementById('n0').innerHTML;
 	
 	document.getElementById('resultado').innerHTML = actual + sumado;
-	
+}
+
+//ops
+
+
+function suma () {
+
+	console.log(actual)
+	console.log(resultado)
+}
+
+function resta () {
+	console.log("working")
 
 }
+
+function mult () {
+	console.log("working")
+
+}
+
+function div () {
+	console.log("working")
+
+}
+
+
+
